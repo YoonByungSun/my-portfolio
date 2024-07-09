@@ -1,0 +1,97 @@
+header {
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+header .inner {
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  flex-grow: 1;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #FFF;
+  opacity: .7;
+  transition: .5s;
+}
+header h1:hover {
+  opacity: 1;
+}
+header .menu {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+}
+header .menu li {
+  opacity:
+}
+header .menu li a {
+  color: #FFF;
+}
+
+
+
+/* Header blurred */
+header.blurred {
+  background-color: rgba(255, 255, 255, .7);
+  backdrop-filter: blur(5px);
+}
+header.blurred h1,
+header.blurred .menu li a {
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header .inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+header .name-logo {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  padding: 20px 0;
+  opacity: .7;
+  transition: .5s;
+}
+header .name-logo:hover {
+  opacity: 1;
+}
+header nav.menu > ul {
+  font-size: 1rem;
+  font-weight: 700;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+header nav.menu > ul > li > a {
+  color: #fff;
+  opacity: .7;
+  padding: 0 .8rem;
+  transition: .5s;
+}
+header.blurred nav.menu {
+  
+}
+header nav.menu > ul > li:hover > a {
+  opacity: 1;
+  font-size: 1.1rem;
+} */

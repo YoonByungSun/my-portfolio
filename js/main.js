@@ -1,2 +1,1 @@
-
-const toTopEl = document.querySelector('#home')
+const navBarEl = document.querySelector('nav.menu');
